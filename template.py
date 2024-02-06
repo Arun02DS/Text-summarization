@@ -9,8 +9,9 @@ project_name = "TextSummariser"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
+    "src/__init__.py",
     f"src/{project_name}/__init__.py",
-    f"src/{project_name}/conponents/__init__.py",
+    f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
     f"src/{project_name}/logging/__init__.py",
@@ -32,6 +33,16 @@ list_of_files = [
 
 ]
 
+
+
+#flow:  Update config.yaml
+#Update params.yaml
+#Update entity
+#Update the configuration manager in src config
+#update the conponents
+#update the pipeline
+#update the main.py
+#update the app.py
 
 for filepath in list_of_files:
     filepath = Path(filepath)
