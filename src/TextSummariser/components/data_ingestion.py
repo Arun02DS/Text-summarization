@@ -4,6 +4,7 @@ from TextSummariser.logging import logger
 from TextSummariser.utils.common import get_size
 from TextSummariser.entity import DataIngestionConfig
 from pathlib import Path
+import os
 
 
 
